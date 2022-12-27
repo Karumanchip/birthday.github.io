@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Dancing+Script:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.birthday{
+    background-color: rgb(228, 138, 138);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('happy-birthday-banner-hangs-from-a-tree-royalty-free-image-1657296329.jpg');
+    background-repeat: no-repeat; */
+    width: 100%;
+
+}
+.birthday-girl h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.background{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inside{
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.inside h3{
+    font-family: 'Caramel', cursive;
+    font-size: 50px
+}
+
+.birthdayGirl-image img{
+    /* display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: center; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 103%;
+    height: 27%;
+    margin-top: 10px;
+    border: 10px solid white;
+}
+.card-vody{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+    background-color: rgb(231, 142, 160);
+   
+
+  }
+  .mythouths{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 400px;
+  }
+.carousel{
+    align-items: center;
+    justify-content: flex-end;
+    width: 750px;
+    /* margin-top:1rem; */
+    
+}
+.carousel .carousel-item {
+    height: 1000px;
+    margin-top:1rem;
+    border: 3px solid black;
+    
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 250px;
+  }
+  .card {
+	 position: relative;
+	 width: 300px;
+	 height: 425px;
+	 border: 10px solid #9612eb;
+	 margin: 60px auto 0 auto;
+	 box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+     background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+
+	background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+	background-color: #e6f0e6;
+}
+ .card .text-container {
+	 width: 80%;
+	 height: 80%;
+	 margin: auto;
+}
+ .strikethrough {
+	 text-decoration: line-through;
+}
+ .card .text-container #head {
+	 font-family: 'Nobile', sans-serif;
+	 font-size: 1.5em;
+	 margin: 60px auto 60px auto;
+}
+ .card p {
+	 font-size: 1.1em;
+	 line-height: 1.4;
+	 font-family: 'Nobile';
+	 color: #331717;
+	 font-style: italic;
+	 text-align: center;
+	 margin: 30px auto 0px auto;
+}
+ .card .front {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 margin: -10px 0px 0px -10px;
+	 border: 10px solid #9612eb;
+	 backface-visibility: hidden;
+	 background-color: #9612eb;
+	/* background-image: url($cover-image);
+	 */
+	 background-size: contain;
+	 transform-style: preserve-3d;
+	 transform-origin: 0% 50%;
+	 transform: perspective(800px) rotateY(0deg);
+	 transition: all 0.8s ease-in-out;
+}
+ .card:hover .front {
+	 transform: perspective(800px) rotateY(-170deg);
+	 background-color: #41718d;
+}
+ .card:hover .back {
+	 transform: perspective(800px) rotateY(-170deg);
+	 box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	 background-color: #d2dcd2;
+}
+ .card .back {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 border: 10px solid #9612eb;
+	 margin: -10px 0px 0px -10px;
+	 backface-visibility: visible;
+	 filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+	 transform-style: preserve-3d;
+	 transform-origin: 0% 50%;
+	 transform: perspective(800px) rotateY(0deg);
+	 transition: all 0.8s ease-in-out;
+	 background-color: #e6f0e6;
+	 box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.imgset
+{
+  position: relative;
+  z-index: 1;
+  margin-bottom: -215px;
+}
+.imgset img
+{
+    box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+.Card{
+    background-color: #afcbdb;
+}
